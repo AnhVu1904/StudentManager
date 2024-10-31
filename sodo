@@ -7,15 +7,32 @@ StudentManagementProject/
 │   │
 │   ├── model/
 │   │   ├── SinhVien.java                  // Lớp đại diện cho thông tin sinh viên
-│   │   └── KhoaHoc.java                   // Lớp đại diện cho thông tin khóa học
+│   │   ├── KhoaHoc.java                   // Lớp đại diện cho thông tin khóa học
+│   │   └── DiemThi.java                   // Lớp đại diện cho thông tin điểm thi của sinh viên
 │   │
 │   ├── manager/
 │   │   ├── QuanLySinhVien.java            // Lớp quản lý sinh viên
-│   │   └── QuanLyKhoaHoc.java             // Lớp quản lý khóa học
+│   │   ├── QuanLyKhoaHoc.java             // Lớp quản lý khóa học
+│   │   └── QuanLyDiemThi.java             // Lớp quản lý điểm thi của sinh viên
+│   │
+│   ├── utils/
+│   │   ├── FileUtils.java                 // Lớp hỗ trợ đọc/ghi file dữ liệu
+│   │   └── InputValidator.java            // Lớp hỗ trợ kiểm tra dữ liệu đầu vào từ người dùng
 │
 ├── data/
 │   ├── sinhvien_data.txt                  // File lưu trữ dữ liệu sinh viên
-│   └── khoahoc_data.txt                   // File lưu trữ dữ liệu khóa học
+│   ├── khoahoc_data.txt                   // File lưu trữ dữ liệu khóa học
+│   └── diemthi_data.txt                   // File lưu trữ dữ liệu điểm thi của sinh viên
+│
+├── docs/
+│   ├── project_overview.md                // Tổng quan về dự án
+│   ├── class_diagram.png                  // Hình ảnh sơ đồ lớp UML của hệ thống
+│   └── user_manual.md                     // Hướng dẫn sử dụng hệ thống cho người dùng
+│
+├── tests/
+│   ├── SinhVienTest.java                  // Các bài kiểm thử cho lớp SinhVien
+│   ├── KhoaHocTest.java                   // Các bài kiểm thử cho lớp KhoaHoc
+│   └── DiemThiTest.java                   // Các bài kiểm thử cho lớp DiemThi
 │
 ├── README.md                              // Hướng dẫn và mô tả dự án
 └── .gitignore                             // Cấu hình các file cần bỏ qua khi sử dụng Git
